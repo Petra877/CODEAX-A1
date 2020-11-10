@@ -1,1 +1,1 @@
-"# repository ini saya gunakan untuk berbagi script yang telah saya buat" 
+"#Gunakan Repository ini dengan bijak" 
