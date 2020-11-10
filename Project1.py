@@ -12,7 +12,7 @@ user = input("Username:")
 passw = input("Password:")   
 
 
-if user == 'petrakharis123' and passw == 'pet1234':
+if user == 'username' and passw == '123':
     print("Anda Telah Login, Silahkan Masuk")
     
 else:
