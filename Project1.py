@@ -12,7 +12,7 @@ user = input("Username:")
 passw = input("Password:")   
 
 
-if user == 'user' and passw == '123':
+if user == 'petrakharis123' and passw == 'pet1234':
     print("Anda Telah Login, Silahkan Masuk")
     
 else:
@@ -135,7 +135,8 @@ def Bangundatar():
         print("1.Pythagoras")
         print("2.Persegi")
         print("3.Persegipanjang")
-        print("4.Segitiga")   
+        print("4.Segitiga")
+        print("5.Lingkaran")   
         
             
     def Pythagoras():
@@ -257,12 +258,104 @@ def Bangundatar():
                 
         else:
             print(pi,"Tidak Ada Dalam Pilihan")
+     
+     
+    def Lingkaran():
+        def menu():
+            print("1.Luas")
+            print("2.Keliling")
+
+        def Luas():
+            def menu():
+                print("1.Diameter")
+                print("2.Radius")    
+                
+            def Diameter():
+                import math
+                print("Anda Telah Memilih Luas Lingkaran Dengan Memasukan Diameter")
+                x = (int(input("Masukan Diameter Lingkaran:")))
+                v = x/2
+                y = v*v
+                z = 3.14*y
+                print("Hasilnya Adalah:",z,"CM")
+                
+            def Radius():
+                import math
+                print("Anda Telah Memilih Luas Lingkaran Dengan Memasukan Radius")
+                v = (int(input("Masukan Radius Lingkaran:")))
+                y = v*v
+                z = 3.14*y
+                print("Hasilnya Adalah:",z,"CM")
+                
+                
+            print("==Pilih Opsi==")
+            print("1.Diameter")
+            print("2.Radius")
+            print("==============") 
+            pil = int(input("Masukan Opsi:"))
+            
+            if pil == 1:
+                Diameter()
+                
+            elif pil == 2:
+                Radius()    
+                  
+            else:
+                print(pil,"Tidak Ada Dalam Pilihan")
+                
+        def Keliling():
+            def menu():
+                print("1.diameter")
+                print("2.radius")
+                
+            def diameter():
+                print("Anda Telah Memilih Keliling Lingkaran Denngan Opsi Diameter")
+                x = (int(input("Masukan Diameter")))
+                y =  3.14 * x 
+                print("Hasilnya Adalah:",y,"CM")
+                
+            def radius():
+                print("Anda Telah Memilih Keliling Lingkaran Dengan Opsi Radius")
+                x = (int(input("Masukan Radius")))
+                y = 2*x*3.14
+                print("Hasilnya Adalah",y,"CM")
+                
+            print("==Pilih Opsi==")
+            print("1.Diameter")
+            print("2.Radius")
+            print("==============")
+            pil = (int(input("Masukan Opsi:")))
+            
+            if pil == 1:
+                diameter()        
+            
+            elif pil == 2:
+                radius()
+            
+            else:
+                (pil,"Tidak Ada Dalam Pilihan")
+                
+        print("===Pilihan===")
+        print("1.Luas")
+        print("2.Keliling")
+        print("=============")
+        pil = (int(input("Masukan Pilihan:")))
         
+        if pil == 1:
+            Luas()
+                     
+        elif pil == 2:
+            Keliling()
+            
+        else:
+            print(pil,"Tidak Ada Dalam Pilihan")
+                   
     print("=======Bangun datar========")
     print("1.Pythagoras")
     print("2.Persegi")
     print("3.Persegi Panjang")
     print("4.Segitiga")
+    print("5.Lingkaran")
     print("===========================")
     print("Masukan Nomornya Saja")
     pil = (int(input("Masukan Pilihan:")))
@@ -278,6 +371,9 @@ def Bangundatar():
     
     elif pil == 4:
         Segitiga()   
+    
+    elif pil == 5:
+        Lingkaran()
     
     else:
         print(pil,"Tidak Ada Dalam Pilihan")    
