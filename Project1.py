@@ -1,3 +1,7 @@
+#Gunakan Script ini dengan bijak
+#jangan gunakan script ini untuk melakukan hal hal curang
+#Author,Contributor,Ataupun Owner Tidak bertanggung Jawab Atas Apa Yang Terjadi
+
 import sys,time
 def tex(teks):
     for i in teks + "\n":
