@@ -1,2 +1,2 @@
 "#Gunakan Repository ini dengan bijak"
-"#Author, Contributor, Ataupun Owner Tidak Bertanggung Jawab Atas Apa Yang Terjadi"
+"#Owner, Author, Ataupun Contributor Tidak Bertanggung Jawab Atas Apa Yang Terjadi"
